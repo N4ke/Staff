@@ -1,0 +1,2 @@
+C:\msys64\mingw64\bin\ar.exe qc libLIB.a CMakeFiles/LIB.dir/src/Cleaner.cpp.obj CMakeFiles/LIB.dir/src/Driver.cpp.obj CMakeFiles/LIB.dir/src/Employee.cpp.obj CMakeFiles/LIB.dir/src/Engineer.cpp.obj CMakeFiles/LIB.dir/src/Factory.cpp.obj CMakeFiles/LIB.dir/src/Manager.cpp.obj CMakeFiles/LIB.dir/src/Personal.cpp.obj CMakeFiles/LIB.dir/src/Programmer.cpp.obj CMakeFiles/LIB.dir/src/Project.cpp.obj CMakeFiles/LIB.dir/src/SeniorManager.cpp.obj CMakeFiles/LIB.dir/src/TeamLeader.cpp.obj CMakeFiles/LIB.dir/src/Tester.cpp.obj
+C:\msys64\mingw64\bin\ranlib.exe libLIB.a

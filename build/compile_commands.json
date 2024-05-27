@@ -1,0 +1,80 @@
+[
+{
+  "directory": "C:/wscpp/Staff/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/Staff_demo.dir/includes_CXX.rsp -g -o CMakeFiles\\Staff_demo.dir\\src\\Cleaner.cpp.obj -c C:\\wscpp\\Staff\\src\\Cleaner.cpp",
+  "file": "C:/wscpp/Staff/src/Cleaner.cpp",
+  "output": "CMakeFiles/Staff_demo.dir/src/Cleaner.cpp.obj"
+},
+{
+  "directory": "C:/wscpp/Staff/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/Staff_demo.dir/includes_CXX.rsp -g -o CMakeFiles\\Staff_demo.dir\\src\\Driver.cpp.obj -c C:\\wscpp\\Staff\\src\\Driver.cpp",
+  "file": "C:/wscpp/Staff/src/Driver.cpp",
+  "output": "CMakeFiles/Staff_demo.dir/src/Driver.cpp.obj"
+},
+{
+  "directory": "C:/wscpp/Staff/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/Staff_demo.dir/includes_CXX.rsp -g -o CMakeFiles\\Staff_demo.dir\\src\\Employee.cpp.obj -c C:\\wscpp\\Staff\\src\\Employee.cpp",
+  "file": "C:/wscpp/Staff/src/Employee.cpp",
+  "output": "CMakeFiles/Staff_demo.dir/src/Employee.cpp.obj"
+},
+{
+  "directory": "C:/wscpp/Staff/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/Staff_demo.dir/includes_CXX.rsp -g -o CMakeFiles\\Staff_demo.dir\\src\\Engineer.cpp.obj -c C:\\wscpp\\Staff\\src\\Engineer.cpp",
+  "file": "C:/wscpp/Staff/src/Engineer.cpp",
+  "output": "CMakeFiles/Staff_demo.dir/src/Engineer.cpp.obj"
+},
+{
+  "directory": "C:/wscpp/Staff/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/Staff_demo.dir/includes_CXX.rsp -g -o CMakeFiles\\Staff_demo.dir\\src\\Factory.cpp.obj -c C:\\wscpp\\Staff\\src\\Factory.cpp",
+  "file": "C:/wscpp/Staff/src/Factory.cpp",
+  "output": "CMakeFiles/Staff_demo.dir/src/Factory.cpp.obj"
+},
+{
+  "directory": "C:/wscpp/Staff/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/Staff_demo.dir/includes_CXX.rsp -g -o CMakeFiles\\Staff_demo.dir\\src\\Manager.cpp.obj -c C:\\wscpp\\Staff\\src\\Manager.cpp",
+  "file": "C:/wscpp/Staff/src/Manager.cpp",
+  "output": "CMakeFiles/Staff_demo.dir/src/Manager.cpp.obj"
+},
+{
+  "directory": "C:/wscpp/Staff/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/Staff_demo.dir/includes_CXX.rsp -g -o CMakeFiles\\Staff_demo.dir\\src\\Personal.cpp.obj -c C:\\wscpp\\Staff\\src\\Personal.cpp",
+  "file": "C:/wscpp/Staff/src/Personal.cpp",
+  "output": "CMakeFiles/Staff_demo.dir/src/Personal.cpp.obj"
+},
+{
+  "directory": "C:/wscpp/Staff/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/Staff_demo.dir/includes_CXX.rsp -g -o CMakeFiles\\Staff_demo.dir\\src\\Programmer.cpp.obj -c C:\\wscpp\\Staff\\src\\Programmer.cpp",
+  "file": "C:/wscpp/Staff/src/Programmer.cpp",
+  "output": "CMakeFiles/Staff_demo.dir/src/Programmer.cpp.obj"
+},
+{
+  "directory": "C:/wscpp/Staff/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/Staff_demo.dir/includes_CXX.rsp -g -o CMakeFiles\\Staff_demo.dir\\src\\Project.cpp.obj -c C:\\wscpp\\Staff\\src\\Project.cpp",
+  "file": "C:/wscpp/Staff/src/Project.cpp",
+  "output": "CMakeFiles/Staff_demo.dir/src/Project.cpp.obj"
+},
+{
+  "directory": "C:/wscpp/Staff/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/Staff_demo.dir/includes_CXX.rsp -g -o CMakeFiles\\Staff_demo.dir\\src\\SeniorManager.cpp.obj -c C:\\wscpp\\Staff\\src\\SeniorManager.cpp",
+  "file": "C:/wscpp/Staff/src/SeniorManager.cpp",
+  "output": "CMakeFiles/Staff_demo.dir/src/SeniorManager.cpp.obj"
+},
+{
+  "directory": "C:/wscpp/Staff/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/Staff_demo.dir/includes_CXX.rsp -g -o CMakeFiles\\Staff_demo.dir\\src\\TeamLeader.cpp.obj -c C:\\wscpp\\Staff\\src\\TeamLeader.cpp",
+  "file": "C:/wscpp/Staff/src/TeamLeader.cpp",
+  "output": "CMakeFiles/Staff_demo.dir/src/TeamLeader.cpp.obj"
+},
+{
+  "directory": "C:/wscpp/Staff/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/Staff_demo.dir/includes_CXX.rsp -g -o CMakeFiles\\Staff_demo.dir\\src\\Tester.cpp.obj -c C:\\wscpp\\Staff\\src\\Tester.cpp",
+  "file": "C:/wscpp/Staff/src/Tester.cpp",
+  "output": "CMakeFiles/Staff_demo.dir/src/Tester.cpp.obj"
+},
+{
+  "directory": "C:/wscpp/Staff/build",
+  "command": "C:\\msys64\\mingw64\\bin\\g++.exe  @CMakeFiles/Staff_demo.dir/includes_CXX.rsp -g -o CMakeFiles\\Staff_demo.dir\\src\\main.cpp.obj -c C:\\wscpp\\Staff\\src\\main.cpp",
+  "file": "C:/wscpp/Staff/src/main.cpp",
+  "output": "CMakeFiles/Staff_demo.dir/src/main.cpp.obj"
+}
+]
