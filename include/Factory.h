@@ -23,7 +23,7 @@ public:
         std::vector<std::unique_ptr<Project>>& projects);
 
 
-    std::vector<std::unique_ptr<Employee>> make_staff();
+    std::vector<std::unique_ptr<Employee>> make_staff(std::vector<std::unique_ptr<Project>>& projects);
 };
 
 

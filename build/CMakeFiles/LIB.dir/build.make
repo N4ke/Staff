@@ -248,6 +248,21 @@ CMakeFiles/LIB.dir/src/Tester.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LIB.dir/src/Tester.cpp.s"
 	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\wscpp\Staff\src\Tester.cpp -o CMakeFiles\LIB.dir\src\Tester.cpp.s
 
+CMakeFiles/LIB.dir/src/main.cpp.obj: CMakeFiles/LIB.dir/flags.make
+CMakeFiles/LIB.dir/src/main.cpp.obj: CMakeFiles/LIB.dir/includes_CXX.rsp
+CMakeFiles/LIB.dir/src/main.cpp.obj: C:/wscpp/Staff/src/main.cpp
+CMakeFiles/LIB.dir/src/main.cpp.obj: CMakeFiles/LIB.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\wscpp\Staff\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/LIB.dir/src/main.cpp.obj"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LIB.dir/src/main.cpp.obj -MF CMakeFiles\LIB.dir\src\main.cpp.obj.d -o CMakeFiles\LIB.dir\src\main.cpp.obj -c C:\wscpp\Staff\src\main.cpp
+
+CMakeFiles/LIB.dir/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/LIB.dir/src/main.cpp.i"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\wscpp\Staff\src\main.cpp > CMakeFiles\LIB.dir\src\main.cpp.i
+
+CMakeFiles/LIB.dir/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/LIB.dir/src/main.cpp.s"
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\wscpp\Staff\src\main.cpp -o CMakeFiles\LIB.dir\src\main.cpp.s
+
 # Object files for target LIB
 LIB_OBJECTS = \
 "CMakeFiles/LIB.dir/src/Cleaner.cpp.obj" \
@@ -261,7 +276,8 @@ LIB_OBJECTS = \
 "CMakeFiles/LIB.dir/src/Project.cpp.obj" \
 "CMakeFiles/LIB.dir/src/SeniorManager.cpp.obj" \
 "CMakeFiles/LIB.dir/src/TeamLeader.cpp.obj" \
-"CMakeFiles/LIB.dir/src/Tester.cpp.obj"
+"CMakeFiles/LIB.dir/src/Tester.cpp.obj" \
+"CMakeFiles/LIB.dir/src/main.cpp.obj"
 
 # External object files for target LIB
 LIB_EXTERNAL_OBJECTS =
@@ -278,9 +294,10 @@ libLIB.a: CMakeFiles/LIB.dir/src/Project.cpp.obj
 libLIB.a: CMakeFiles/LIB.dir/src/SeniorManager.cpp.obj
 libLIB.a: CMakeFiles/LIB.dir/src/TeamLeader.cpp.obj
 libLIB.a: CMakeFiles/LIB.dir/src/Tester.cpp.obj
+libLIB.a: CMakeFiles/LIB.dir/src/main.cpp.obj
 libLIB.a: CMakeFiles/LIB.dir/build.make
 libLIB.a: CMakeFiles/LIB.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\wscpp\Staff\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX static library libLIB.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\wscpp\Staff\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX static library libLIB.a"
 	$(CMAKE_COMMAND) -P CMakeFiles\LIB.dir\cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\LIB.dir\link.txt --verbose=$(VERBOSE)
 

@@ -20,6 +20,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "C:/wscpp/Staff/src/SeniorManager.cpp" "CMakeFiles/LIB.dir/src/SeniorManager.cpp.obj" "gcc" "CMakeFiles/LIB.dir/src/SeniorManager.cpp.obj.d"
   "C:/wscpp/Staff/src/TeamLeader.cpp" "CMakeFiles/LIB.dir/src/TeamLeader.cpp.obj" "gcc" "CMakeFiles/LIB.dir/src/TeamLeader.cpp.obj.d"
   "C:/wscpp/Staff/src/Tester.cpp" "CMakeFiles/LIB.dir/src/Tester.cpp.obj" "gcc" "CMakeFiles/LIB.dir/src/Tester.cpp.obj.d"
+  "C:/wscpp/Staff/src/main.cpp" "CMakeFiles/LIB.dir/src/main.cpp.obj" "gcc" "CMakeFiles/LIB.dir/src/main.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

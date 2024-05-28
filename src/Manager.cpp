@@ -29,7 +29,9 @@ void Project_manager::calc() {
 
 void Project_manager::print_info() {
     std::cout << "====  " << name << "  ====" << std::endl
+        << "Position: Project Manager" << std::endl
         << "ID: " << id << std::endl
         << "Salary: " << salary << " rub per hour" << std::endl
-        << "ID of controlled project: " << project->get_id() << std::endl;
+        << "ID of controlled project: " << project->get_id() << std::endl
+        << "Total payment: " << payment << std::endl;
 }

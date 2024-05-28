@@ -23,7 +23,9 @@ void Senior_manager::calc() {
 
 void Senior_manager::print_info() {
     std::cout << "====  " << name << "  ====" << std::endl
+        << "Position: Senior Manager" << std::endl
         << "ID: " << id << std::endl
         << "Salary: " << salary << " rub per hour" << std::endl
-        << "Number of all projects: " << projects.size() << std::endl;
+        << "Number of all projects: " << projects.size() << std::endl
+        << "Total payment: " << payment << std::endl;
 }

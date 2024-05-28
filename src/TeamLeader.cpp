@@ -33,7 +33,9 @@ void Team_leader::calc() {
 
 void Team_leader::print_info() {
     std::cout << "====  " << name << "  ====" << std::endl
+        << "Position: Team Leader" << std::endl
         << "ID: " << id << std::endl
         << "Salary: " << salary << " rub per hour" << std::endl
-        << "Number subordinates: " << subordinates << std::endl;
+        << "Number subordinates: " << subordinates << std::endl
+        << "Total payment: " << payment << std::endl;
 }

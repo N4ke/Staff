@@ -23,6 +23,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/LIB.dir/src/TeamLeader.cpp.obj.d"
   "CMakeFiles/LIB.dir/src/Tester.cpp.obj"
   "CMakeFiles/LIB.dir/src/Tester.cpp.obj.d"
+  "CMakeFiles/LIB.dir/src/main.cpp.obj"
+  "CMakeFiles/LIB.dir/src/main.cpp.obj.d"
   "libLIB.a"
   "libLIB.pdb"
 )

@@ -17,6 +17,8 @@ void Cleaner::calc() {
 
 void Cleaner::print_info() {
     std::cout << "====  " << name << "  ====" << std::endl
+        << "Position: Cleaner" << std::endl
         << "ID: " << id << std::endl
-        << "Salary: " << salary << " rub per hour" << std::endl;
+        << "Salary: " << salary << " rub per hour" << std::endl
+        << "Total payment: " << payment << std::endl;
 }

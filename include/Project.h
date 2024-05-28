@@ -26,6 +26,8 @@ class Project {
     unsigned int get_id();
 
     float get_budget();
+
+    unsigned int get_subs();
 };
 
 

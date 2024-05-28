@@ -30,3 +30,8 @@ float Project::get_budget() {
 unsigned int Project::get_id() {
     return id;
 }
+
+
+unsigned int Project::get_subs() {
+    return number_of_employees;
+}

@@ -116,24 +116,37 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Staff_demo
+# Target rules for targets named LIB
 
 # Build rule for target.
-Staff_demo: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Staff_demo
-.PHONY : Staff_demo
+LIB: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 LIB
+.PHONY : LIB
 
 # fast build rule for target.
-Staff_demo/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Staff_demo.dir\build.make CMakeFiles/Staff_demo.dir/build
-.PHONY : Staff_demo/fast
+LIB/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LIB.dir\build.make CMakeFiles/LIB.dir/build
+.PHONY : LIB/fast
+
+#=============================================================================
+# Target rules for targets named main
+
+# Build rule for target.
+main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 main
+.PHONY : main
+
+# fast build rule for target.
+main/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/build
+.PHONY : main/fast
 
 src/Cleaner.obj: src/Cleaner.cpp.obj
 .PHONY : src/Cleaner.obj
 
 # target to build an object file
 src/Cleaner.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Staff_demo.dir\build.make CMakeFiles/Staff_demo.dir/src/Cleaner.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LIB.dir\build.make CMakeFiles/LIB.dir/src/Cleaner.cpp.obj
 .PHONY : src/Cleaner.cpp.obj
 
 src/Cleaner.i: src/Cleaner.cpp.i
@@ -141,7 +154,7 @@ src/Cleaner.i: src/Cleaner.cpp.i
 
 # target to preprocess a source file
 src/Cleaner.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Staff_demo.dir\build.make CMakeFiles/Staff_demo.dir/src/Cleaner.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LIB.dir\build.make CMakeFiles/LIB.dir/src/Cleaner.cpp.i
 .PHONY : src/Cleaner.cpp.i
 
 src/Cleaner.s: src/Cleaner.cpp.s
@@ -149,7 +162,7 @@ src/Cleaner.s: src/Cleaner.cpp.s
 
 # target to generate assembly for a file
 src/Cleaner.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Staff_demo.dir\build.make CMakeFiles/Staff_demo.dir/src/Cleaner.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LIB.dir\build.make CMakeFiles/LIB.dir/src/Cleaner.cpp.s
 .PHONY : src/Cleaner.cpp.s
 
 src/Driver.obj: src/Driver.cpp.obj
@@ -157,7 +170,7 @@ src/Driver.obj: src/Driver.cpp.obj
 
 # target to build an object file
 src/Driver.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Staff_demo.dir\build.make CMakeFiles/Staff_demo.dir/src/Driver.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LIB.dir\build.make CMakeFiles/LIB.dir/src/Driver.cpp.obj
 .PHONY : src/Driver.cpp.obj
 
 src/Driver.i: src/Driver.cpp.i
@@ -165,7 +178,7 @@ src/Driver.i: src/Driver.cpp.i
 
 # target to preprocess a source file
 src/Driver.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Staff_demo.dir\build.make CMakeFiles/Staff_demo.dir/src/Driver.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LIB.dir\build.make CMakeFiles/LIB.dir/src/Driver.cpp.i
 .PHONY : src/Driver.cpp.i
 
 src/Driver.s: src/Driver.cpp.s
@@ -173,7 +186,7 @@ src/Driver.s: src/Driver.cpp.s
 
 # target to generate assembly for a file
 src/Driver.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Staff_demo.dir\build.make CMakeFiles/Staff_demo.dir/src/Driver.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LIB.dir\build.make CMakeFiles/LIB.dir/src/Driver.cpp.s
 .PHONY : src/Driver.cpp.s
 
 src/Employee.obj: src/Employee.cpp.obj
@@ -181,7 +194,7 @@ src/Employee.obj: src/Employee.cpp.obj
 
 # target to build an object file
 src/Employee.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Staff_demo.dir\build.make CMakeFiles/Staff_demo.dir/src/Employee.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LIB.dir\build.make CMakeFiles/LIB.dir/src/Employee.cpp.obj
 .PHONY : src/Employee.cpp.obj
 
 src/Employee.i: src/Employee.cpp.i
@@ -189,7 +202,7 @@ src/Employee.i: src/Employee.cpp.i
 
 # target to preprocess a source file
 src/Employee.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Staff_demo.dir\build.make CMakeFiles/Staff_demo.dir/src/Employee.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LIB.dir\build.make CMakeFiles/LIB.dir/src/Employee.cpp.i
 .PHONY : src/Employee.cpp.i
 
 src/Employee.s: src/Employee.cpp.s
@@ -197,7 +210,7 @@ src/Employee.s: src/Employee.cpp.s
 
 # target to generate assembly for a file
 src/Employee.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Staff_demo.dir\build.make CMakeFiles/Staff_demo.dir/src/Employee.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LIB.dir\build.make CMakeFiles/LIB.dir/src/Employee.cpp.s
 .PHONY : src/Employee.cpp.s
 
 src/Engineer.obj: src/Engineer.cpp.obj
@@ -205,7 +218,7 @@ src/Engineer.obj: src/Engineer.cpp.obj
 
 # target to build an object file
 src/Engineer.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Staff_demo.dir\build.make CMakeFiles/Staff_demo.dir/src/Engineer.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LIB.dir\build.make CMakeFiles/LIB.dir/src/Engineer.cpp.obj
 .PHONY : src/Engineer.cpp.obj
 
 src/Engineer.i: src/Engineer.cpp.i
@@ -213,7 +226,7 @@ src/Engineer.i: src/Engineer.cpp.i
 
 # target to preprocess a source file
 src/Engineer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Staff_demo.dir\build.make CMakeFiles/Staff_demo.dir/src/Engineer.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LIB.dir\build.make CMakeFiles/LIB.dir/src/Engineer.cpp.i
 .PHONY : src/Engineer.cpp.i
 
 src/Engineer.s: src/Engineer.cpp.s
@@ -221,7 +234,7 @@ src/Engineer.s: src/Engineer.cpp.s
 
 # target to generate assembly for a file
 src/Engineer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Staff_demo.dir\build.make CMakeFiles/Staff_demo.dir/src/Engineer.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LIB.dir\build.make CMakeFiles/LIB.dir/src/Engineer.cpp.s
 .PHONY : src/Engineer.cpp.s
 
 src/Factory.obj: src/Factory.cpp.obj
@@ -229,7 +242,7 @@ src/Factory.obj: src/Factory.cpp.obj
 
 # target to build an object file
 src/Factory.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Staff_demo.dir\build.make CMakeFiles/Staff_demo.dir/src/Factory.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LIB.dir\build.make CMakeFiles/LIB.dir/src/Factory.cpp.obj
 .PHONY : src/Factory.cpp.obj
 
 src/Factory.i: src/Factory.cpp.i
@@ -237,7 +250,7 @@ src/Factory.i: src/Factory.cpp.i
 
 # target to preprocess a source file
 src/Factory.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Staff_demo.dir\build.make CMakeFiles/Staff_demo.dir/src/Factory.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LIB.dir\build.make CMakeFiles/LIB.dir/src/Factory.cpp.i
 .PHONY : src/Factory.cpp.i
 
 src/Factory.s: src/Factory.cpp.s
@@ -245,7 +258,7 @@ src/Factory.s: src/Factory.cpp.s
 
 # target to generate assembly for a file
 src/Factory.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Staff_demo.dir\build.make CMakeFiles/Staff_demo.dir/src/Factory.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LIB.dir\build.make CMakeFiles/LIB.dir/src/Factory.cpp.s
 .PHONY : src/Factory.cpp.s
 
 src/Manager.obj: src/Manager.cpp.obj
@@ -253,7 +266,7 @@ src/Manager.obj: src/Manager.cpp.obj
 
 # target to build an object file
 src/Manager.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Staff_demo.dir\build.make CMakeFiles/Staff_demo.dir/src/Manager.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LIB.dir\build.make CMakeFiles/LIB.dir/src/Manager.cpp.obj
 .PHONY : src/Manager.cpp.obj
 
 src/Manager.i: src/Manager.cpp.i
@@ -261,7 +274,7 @@ src/Manager.i: src/Manager.cpp.i
 
 # target to preprocess a source file
 src/Manager.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Staff_demo.dir\build.make CMakeFiles/Staff_demo.dir/src/Manager.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LIB.dir\build.make CMakeFiles/LIB.dir/src/Manager.cpp.i
 .PHONY : src/Manager.cpp.i
 
 src/Manager.s: src/Manager.cpp.s
@@ -269,7 +282,7 @@ src/Manager.s: src/Manager.cpp.s
 
 # target to generate assembly for a file
 src/Manager.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Staff_demo.dir\build.make CMakeFiles/Staff_demo.dir/src/Manager.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LIB.dir\build.make CMakeFiles/LIB.dir/src/Manager.cpp.s
 .PHONY : src/Manager.cpp.s
 
 src/Personal.obj: src/Personal.cpp.obj
@@ -277,7 +290,7 @@ src/Personal.obj: src/Personal.cpp.obj
 
 # target to build an object file
 src/Personal.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Staff_demo.dir\build.make CMakeFiles/Staff_demo.dir/src/Personal.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LIB.dir\build.make CMakeFiles/LIB.dir/src/Personal.cpp.obj
 .PHONY : src/Personal.cpp.obj
 
 src/Personal.i: src/Personal.cpp.i
@@ -285,7 +298,7 @@ src/Personal.i: src/Personal.cpp.i
 
 # target to preprocess a source file
 src/Personal.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Staff_demo.dir\build.make CMakeFiles/Staff_demo.dir/src/Personal.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LIB.dir\build.make CMakeFiles/LIB.dir/src/Personal.cpp.i
 .PHONY : src/Personal.cpp.i
 
 src/Personal.s: src/Personal.cpp.s
@@ -293,7 +306,7 @@ src/Personal.s: src/Personal.cpp.s
 
 # target to generate assembly for a file
 src/Personal.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Staff_demo.dir\build.make CMakeFiles/Staff_demo.dir/src/Personal.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LIB.dir\build.make CMakeFiles/LIB.dir/src/Personal.cpp.s
 .PHONY : src/Personal.cpp.s
 
 src/Programmer.obj: src/Programmer.cpp.obj
@@ -301,7 +314,7 @@ src/Programmer.obj: src/Programmer.cpp.obj
 
 # target to build an object file
 src/Programmer.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Staff_demo.dir\build.make CMakeFiles/Staff_demo.dir/src/Programmer.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LIB.dir\build.make CMakeFiles/LIB.dir/src/Programmer.cpp.obj
 .PHONY : src/Programmer.cpp.obj
 
 src/Programmer.i: src/Programmer.cpp.i
@@ -309,7 +322,7 @@ src/Programmer.i: src/Programmer.cpp.i
 
 # target to preprocess a source file
 src/Programmer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Staff_demo.dir\build.make CMakeFiles/Staff_demo.dir/src/Programmer.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LIB.dir\build.make CMakeFiles/LIB.dir/src/Programmer.cpp.i
 .PHONY : src/Programmer.cpp.i
 
 src/Programmer.s: src/Programmer.cpp.s
@@ -317,7 +330,7 @@ src/Programmer.s: src/Programmer.cpp.s
 
 # target to generate assembly for a file
 src/Programmer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Staff_demo.dir\build.make CMakeFiles/Staff_demo.dir/src/Programmer.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LIB.dir\build.make CMakeFiles/LIB.dir/src/Programmer.cpp.s
 .PHONY : src/Programmer.cpp.s
 
 src/Project.obj: src/Project.cpp.obj
@@ -325,7 +338,7 @@ src/Project.obj: src/Project.cpp.obj
 
 # target to build an object file
 src/Project.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Staff_demo.dir\build.make CMakeFiles/Staff_demo.dir/src/Project.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LIB.dir\build.make CMakeFiles/LIB.dir/src/Project.cpp.obj
 .PHONY : src/Project.cpp.obj
 
 src/Project.i: src/Project.cpp.i
@@ -333,7 +346,7 @@ src/Project.i: src/Project.cpp.i
 
 # target to preprocess a source file
 src/Project.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Staff_demo.dir\build.make CMakeFiles/Staff_demo.dir/src/Project.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LIB.dir\build.make CMakeFiles/LIB.dir/src/Project.cpp.i
 .PHONY : src/Project.cpp.i
 
 src/Project.s: src/Project.cpp.s
@@ -341,7 +354,7 @@ src/Project.s: src/Project.cpp.s
 
 # target to generate assembly for a file
 src/Project.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Staff_demo.dir\build.make CMakeFiles/Staff_demo.dir/src/Project.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LIB.dir\build.make CMakeFiles/LIB.dir/src/Project.cpp.s
 .PHONY : src/Project.cpp.s
 
 src/SeniorManager.obj: src/SeniorManager.cpp.obj
@@ -349,7 +362,7 @@ src/SeniorManager.obj: src/SeniorManager.cpp.obj
 
 # target to build an object file
 src/SeniorManager.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Staff_demo.dir\build.make CMakeFiles/Staff_demo.dir/src/SeniorManager.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LIB.dir\build.make CMakeFiles/LIB.dir/src/SeniorManager.cpp.obj
 .PHONY : src/SeniorManager.cpp.obj
 
 src/SeniorManager.i: src/SeniorManager.cpp.i
@@ -357,7 +370,7 @@ src/SeniorManager.i: src/SeniorManager.cpp.i
 
 # target to preprocess a source file
 src/SeniorManager.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Staff_demo.dir\build.make CMakeFiles/Staff_demo.dir/src/SeniorManager.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LIB.dir\build.make CMakeFiles/LIB.dir/src/SeniorManager.cpp.i
 .PHONY : src/SeniorManager.cpp.i
 
 src/SeniorManager.s: src/SeniorManager.cpp.s
@@ -365,7 +378,7 @@ src/SeniorManager.s: src/SeniorManager.cpp.s
 
 # target to generate assembly for a file
 src/SeniorManager.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Staff_demo.dir\build.make CMakeFiles/Staff_demo.dir/src/SeniorManager.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LIB.dir\build.make CMakeFiles/LIB.dir/src/SeniorManager.cpp.s
 .PHONY : src/SeniorManager.cpp.s
 
 src/TeamLeader.obj: src/TeamLeader.cpp.obj
@@ -373,7 +386,7 @@ src/TeamLeader.obj: src/TeamLeader.cpp.obj
 
 # target to build an object file
 src/TeamLeader.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Staff_demo.dir\build.make CMakeFiles/Staff_demo.dir/src/TeamLeader.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LIB.dir\build.make CMakeFiles/LIB.dir/src/TeamLeader.cpp.obj
 .PHONY : src/TeamLeader.cpp.obj
 
 src/TeamLeader.i: src/TeamLeader.cpp.i
@@ -381,7 +394,7 @@ src/TeamLeader.i: src/TeamLeader.cpp.i
 
 # target to preprocess a source file
 src/TeamLeader.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Staff_demo.dir\build.make CMakeFiles/Staff_demo.dir/src/TeamLeader.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LIB.dir\build.make CMakeFiles/LIB.dir/src/TeamLeader.cpp.i
 .PHONY : src/TeamLeader.cpp.i
 
 src/TeamLeader.s: src/TeamLeader.cpp.s
@@ -389,7 +402,7 @@ src/TeamLeader.s: src/TeamLeader.cpp.s
 
 # target to generate assembly for a file
 src/TeamLeader.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Staff_demo.dir\build.make CMakeFiles/Staff_demo.dir/src/TeamLeader.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LIB.dir\build.make CMakeFiles/LIB.dir/src/TeamLeader.cpp.s
 .PHONY : src/TeamLeader.cpp.s
 
 src/Tester.obj: src/Tester.cpp.obj
@@ -397,7 +410,7 @@ src/Tester.obj: src/Tester.cpp.obj
 
 # target to build an object file
 src/Tester.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Staff_demo.dir\build.make CMakeFiles/Staff_demo.dir/src/Tester.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LIB.dir\build.make CMakeFiles/LIB.dir/src/Tester.cpp.obj
 .PHONY : src/Tester.cpp.obj
 
 src/Tester.i: src/Tester.cpp.i
@@ -405,7 +418,7 @@ src/Tester.i: src/Tester.cpp.i
 
 # target to preprocess a source file
 src/Tester.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Staff_demo.dir\build.make CMakeFiles/Staff_demo.dir/src/Tester.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LIB.dir\build.make CMakeFiles/LIB.dir/src/Tester.cpp.i
 .PHONY : src/Tester.cpp.i
 
 src/Tester.s: src/Tester.cpp.s
@@ -413,7 +426,7 @@ src/Tester.s: src/Tester.cpp.s
 
 # target to generate assembly for a file
 src/Tester.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Staff_demo.dir\build.make CMakeFiles/Staff_demo.dir/src/Tester.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LIB.dir\build.make CMakeFiles/LIB.dir/src/Tester.cpp.s
 .PHONY : src/Tester.cpp.s
 
 src/main.obj: src/main.cpp.obj
@@ -421,7 +434,8 @@ src/main.obj: src/main.cpp.obj
 
 # target to build an object file
 src/main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Staff_demo.dir\build.make CMakeFiles/Staff_demo.dir/src/main.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LIB.dir\build.make CMakeFiles/LIB.dir/src/main.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/main.cpp.obj
 .PHONY : src/main.cpp.obj
 
 src/main.i: src/main.cpp.i
@@ -429,7 +443,8 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Staff_demo.dir\build.make CMakeFiles/Staff_demo.dir/src/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LIB.dir\build.make CMakeFiles/LIB.dir/src/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -437,7 +452,8 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Staff_demo.dir\build.make CMakeFiles/Staff_demo.dir/src/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LIB.dir\build.make CMakeFiles/LIB.dir/src/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 # Help Target
@@ -448,7 +464,8 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... Staff_demo
+	@echo ... LIB
+	@echo ... main
 	@echo ... src/Cleaner.obj
 	@echo ... src/Cleaner.i
 	@echo ... src/Cleaner.s

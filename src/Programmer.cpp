@@ -25,8 +25,10 @@ void Programmer::calc_pro_additions() {
 
 void Programmer::print_info() {
     std::cout << "====  " << name << "  ====" << std::endl
+        << "Position: Programmer" << std::endl
         << "ID: " << id << std::endl
         << "Seniority: " << seniority << std::endl
         << "Salary: " << salary << " rub per hour" << std::endl
-        << "ID of project: " << project->get_id() << std::endl;
+        << "ID of project: " << project->get_id() << std::endl
+        << "Total payment: " << payment << std::endl;
 }
