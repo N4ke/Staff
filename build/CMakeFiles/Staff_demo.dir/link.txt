@@ -1,3 +1,0 @@
-"C:\Program Files\CMake\bin\cmake.exe" -E rm -f CMakeFiles\Staff_demo.dir/objects.a
-C:\msys64\mingw64\bin\ar.exe qc CMakeFiles\Staff_demo.dir/objects.a @CMakeFiles\Staff_demo.dir\objects1.rsp
-C:\msys64\mingw64\bin\g++.exe -g -Wl,--whole-archive CMakeFiles\Staff_demo.dir/objects.a -Wl,--no-whole-archive -o Staff_demo.exe -Wl,--out-implib,libStaff_demo.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Staff_demo.dir\linkLibs.rsp

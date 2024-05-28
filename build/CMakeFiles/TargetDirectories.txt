@@ -1,4 +1,0 @@
-C:/wscpp/Staff/build/CMakeFiles/LIB.dir
-C:/wscpp/Staff/build/CMakeFiles/main.dir
-C:/wscpp/Staff/build/CMakeFiles/edit_cache.dir
-C:/wscpp/Staff/build/CMakeFiles/rebuild_cache.dir
